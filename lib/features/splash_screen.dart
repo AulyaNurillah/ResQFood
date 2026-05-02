@@ -58,7 +58,7 @@ class _SplashScreenState extends State<SplashScreen>
       backgroundColor: AppColors.primary,
       body: Stack(
         children: [
-          // Gradient overlay
+         
           Container(
             decoration: const BoxDecoration(
               gradient: LinearGradient(
@@ -78,7 +78,7 @@ class _SplashScreenState extends State<SplashScreen>
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  // LOGO BOX
+                  
                   Container(
                     width: 128,
                     height: 128,
@@ -109,7 +109,7 @@ class _SplashScreenState extends State<SplashScreen>
 
                   const SizedBox(height: 24),
 
-                  // APP NAME
+                 
                   const Text(
                     'ResQFood',
                     style: AppTextStyles.title,
@@ -117,7 +117,7 @@ class _SplashScreenState extends State<SplashScreen>
 
                   const SizedBox(height: 8),
 
-                  // TAGLINE
+                  
                   const Text(
                     'Reduce Waste, Share Value',
                     style: AppTextStyles.subtitle,
@@ -126,7 +126,7 @@ class _SplashScreenState extends State<SplashScreen>
 
                   const SizedBox(height: 16),
 
-                  // PROGRESS BAR ANIMASI
+                  
                   Container(
                     width: 192,
                     height: 4,
@@ -156,7 +156,7 @@ class _SplashScreenState extends State<SplashScreen>
 
                   const SizedBox(height: 16),
 
-                  // ESTABLISHED TEXT
+                  
                   const Text(
                     'ESTABLISHED 2024',
                     style: AppTextStyles.small,
